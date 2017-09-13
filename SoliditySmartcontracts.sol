@@ -155,7 +155,7 @@ contract LegacySmartContract is Ownable, Destructible {
     function distributeTokens() public payable {
         _legacyWalletAddress.transfer(msg.value*5/100);
         _holderWalletAddress.transfer(msg.value*5/100);
-        _devWalletAddress.transfer(msg.value*58/100);
+        _devWalletAddress.transfer(msg.value*85/100);
     } 
 
     /** 
